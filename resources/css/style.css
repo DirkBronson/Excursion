@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+}
+
+footer {
+  background-color: dimgrey;
+  color: white;
+  font-size: 11px;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+#copy {
+  display: inline;
+  float: left;
+}
