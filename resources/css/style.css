@@ -1,6 +1,5 @@
 body {
   font-family: Helvetica, sans-serif;
-  background-color: black;
   text-align: center;
   margin: auto;
 }
@@ -14,9 +13,27 @@ footer {
 a {
   color: white;
   font-weight: bold;
+  display: inline;
+}
+
+.header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg");
+  color: white;
+  background-size: cover;
+}
+
+.newyork {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg");
 }
 
 #copy {
-  display: inline;
+  text-align: left;
+  display: inline-block;
   float: left;
+  font-weight: 11px;
+}
+
+#navbar {
+  display: inline-block;
+  font-weight: 16px;
 }
